@@ -8,15 +8,15 @@ setuptools.setup(
     version="1.0.2",
     author="Raymomyar",
     author_email="notreleased@example.com",
-    description="Wrapper of SQLite",
+    description="Wrapper of several databases",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://https://github.com/javaarchive/Lemora",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.4',
 )
