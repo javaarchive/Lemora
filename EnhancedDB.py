@@ -8,4 +8,4 @@ def encode(data):
 def decode(data):
     return json.loads(bz2.decompress(data).decode())
 def db(filename = "unnamed.sqlite"):
-    return SqliteDict(filename,encode = encode,decode = decode)
+    return SqliteDict(filename, encode = encode, decode = decode)
